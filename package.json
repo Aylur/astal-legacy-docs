@@ -1,0 +1,26 @@
+{
+  "name": "astal-docs",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "eslint-plugin-vue": "latest",
+    "typescript": "latest",
+    "typescript-eslint": "latest",
+    "vitepress": "latest",
+    "vue": "latest"
+  },
+  "scripts": {
+    "dev": "vitepress dev --open",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "vitepress": "vitepress",
+    "lint": "eslint . --fix"
+  },
+  "dependencies": {
+    "devicon": "latest",
+    "font-logos": "latest"
+  },
+  "prettier": {
+    "proseWrap": "always"
+  }
+}
